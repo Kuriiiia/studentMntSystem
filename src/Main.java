@@ -12,11 +12,6 @@ public class Main {
         System.out.print("age: ");
             int age = sc.nextInt();
             st.setAge(age);
-        System.out.println("students details: ");
-        System.out.println("student Id: "+st.getStudentId());
-        System.out.println("student name: "+st.getName());
-        System.out.println("student age: "+st.getAge());
-
-
+            st.display();
     }
 }

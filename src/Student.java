@@ -27,5 +27,12 @@ public class Student {
     public int getAge() {
         return age;
     }
+
+    public void display(){
+        System.out.println("students details");
+        System.out.println("student Id: "+getStudentId());
+        System.out.println("student name: "+getName());
+        System.out.println("student age: "+getAge());
+    }
 }
 
